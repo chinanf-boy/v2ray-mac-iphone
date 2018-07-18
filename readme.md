@@ -43,7 +43,7 @@ v2ray, 也正如此诞生的, 谢谢🙏
 
 它需要开了一边 比如 `socks5` 协议 -/- `http` 协议 等等
 
-``` json
+``` js
 // socks 进
   "inbound" : {
     "listen" : "0.0.0.0", //✅ 和 127.0.0.1❌  是否正确只是区别在于 是否给局域网的其他设备访问 
@@ -64,7 +64,7 @@ v2ray, 也正如此诞生的, 谢谢🙏
 
 开了另一边 比如 `shadowsocks` 协议 -/- `vmess` 协议{v2ray安全🔐与复杂性}
 
-``` json
+``` js
 // shadowsocks 出
   "outbound": {
     "protocol": "shadowsocks", // 协议
@@ -128,7 +128,7 @@ v2ray, 也正如此诞生的, 谢谢🙏
 
 <summary>完整config.json</summary>
 
-``` json
+``` js
 // 
 {
 // socks 进
@@ -180,7 +180,7 @@ v2ray, 也正如此诞生的, 谢谢🙏
 
 > V2ray === 化妆师
 
-``` json
+``` js
 // 第二通道-入口
   "inbound": {
     "port": 5000, // 对口, 不然路都找不到
@@ -198,7 +198,7 @@ v2ray, 也正如此诞生的, 谢谢🙏
 
 身份？[==》》那是我们在上一个通道的事情啦](#一出)
 
-``` json
+``` js
 // 上一通道-出口
   "outbound": {
     "protocol": "shadowsocks", // 协议
@@ -226,7 +226,7 @@ v2ray, 也正如此诞生的, 谢谢🙏
 
 #### 第二通道-出口
 
-``` json
+``` js
 // 第二通道-出口
   "outbound": {
       "protocol" : "freedom",
