@@ -1,20 +1,20 @@
-# V2ray
+# V2ray [![explain](http://llever.com/explain.svg)](https://github.com/chinanf-boy/Source-Explain)
+     
 
 「 说是`代理`, 其实用`通道`来, 更合适 」
 
 这里是 explain 单元, 但只解释, 概念
-
-[![explain](http://llever.com/explain.svg)](https://github.com/chinanf-boy/Source-Explain)
-    
-Explanation
-
-> "version": "1.0.0"
 
 [github source](https://github.com/v2ray/v2ray-core)
 
 ~~[english](./README.en.md)~~
 
 ---
+
+## 生活
+
+[help me live , live need money 💰](https://github.com/chinanf-boy/live-need-money)
+
 
 一直以来, 通过科学上网让我对世界更多了份认识, 但手机似乎要收费,
 
